@@ -1,5 +1,10 @@
 /**	Red color style */
+.couple-section .couple h3,
 .header .nav ul li a.active,
 .header .nav ul li a:hover {
 	color: #cc3b3b;
+}
+
+.couple-section .couple img {
+	border-color: #cc3b3b;
 }
