@@ -16,3 +16,5 @@ $(window).on("load",function() {
 	}
 	slideShow();
 })
+
+// Abandoned at part 5
