@@ -20,7 +20,7 @@ $(window).on("load",function() {
 	
 	function slideShow() {
 		$("#slideshow").animate({opacity: '0'}, "slow", transitionImage);
-		setTimeout(slideShow, 10000);
+		setTimeout(slideShow, 5000);
 	}
 	slideShow();
 })

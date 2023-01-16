@@ -9,6 +9,7 @@
 	color: #cc3b3b;
 }
 
+.event-section .event-item-inner:before,
 .couple-section .couple img {
 	border-color: #cc3b3b;
 }
