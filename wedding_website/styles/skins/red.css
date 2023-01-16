@@ -1,4 +1,5 @@
 /**	Red color style */
+.event-section .event-item-inner span,
 .story-section .story-item i,
 .story-section .story-text h3,
 .couple-section .couple i.fa-heart,
@@ -10,4 +11,9 @@
 
 .couple-section .couple img {
 	border-color: #cc3b3b;
+}
+
+
+.event-section {
+	background-color: #cc3b3b;
 }
