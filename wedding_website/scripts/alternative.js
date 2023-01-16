@@ -41,4 +41,9 @@ $(document).ready(function() {
 			peopleFilter($(this).attr("data-target"));
 		}
 	})
+
+
+	//gallery popup
+	const wHeight = $(window).height();
+	$(".gallery-popup img").css("max-height", wHeight + "px");
 })
