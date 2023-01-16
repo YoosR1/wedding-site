@@ -320,7 +320,7 @@ header, section, footer {
 	position: absolute;
 	left: 50%;
 	margin-left: -15px;
-	top: 50%;
+	top: 5px;
 	width: 31px;
 	text-align: center;
 	background-color: #f3f2f1;
@@ -354,10 +354,6 @@ header, section, footer {
 .story-section .story-img {
 	flex: 0 0 50%;
 	max-width: 50%;
-}
-
-.story-section .story-text {
-	align-self: center;
 }
 
 .story-section .story-text h3 {
