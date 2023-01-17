@@ -1,4 +1,5 @@
 /**	Red color style */
+.btn-1:hover,
 .event-section .event-item-inner span,
 .story-section .story-item i,
 .story-section .story-text h3,
@@ -9,11 +10,14 @@
 	color: #cc3b3b;
 }
 
+.btn-1,
 .event-section .event-item-inner:before,
 .couple-section .couple img {
 	border-color: #cc3b3b;
 }
 
+.btn-1,
+.rsvp-section,
 .people-section .filter-btn.active,
 .event-section {
 	background-color: #cc3b3b;

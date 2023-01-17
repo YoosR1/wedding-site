@@ -232,7 +232,7 @@
 				<!-- People Item start -->
 				<div class="people-item" data-category="bridesmaids">
 					<div class="people-item-inner">
-						<img src="img/bridesmaids/default.png" alt="Photo of Ashley">
+						<img src="img/bridesmaids/Ashley.jpg" alt="Photo of Ashley">
 						<h4>Ashley-Marie Delgado</h4>
 						<p>Bridesmaid</p>
 					</div>
@@ -335,9 +335,9 @@
 	<!-- Gallery popup start -->
 	<div class="gallery-popup">
 		<div class="gp-container">
-			<div class="gp-counter">1/6</div>
+			<div class="gp-counter"></div>
 			<div class="gp-close">&times;</div>
-			<img src="img/gallery/large/1.jpg" alt="Gallery img">
+			<img src="img/gallery/large/1.jpg" class="gp-img" alt="Gallery img">
 			<div class="gp-controls">
 				<div class="prev">
 					<i class="fas fa-angle-left"></i>
@@ -350,6 +350,83 @@
 	</div>
 	<!-- Gallery popup end -->
 
+	<!-- RSVP section start -->
+	<!-- TODO: Add backend that has the number of seats allowed per invite and a unique password or key to identify each invite -->
+	<section class="rsvp-section">
+		<div class="container">
+			<div class="row">
+				<div class="section-title">
+					<h2>You Are Invited!</h2>
+					<p>Please kindly respond before June 8, 2024</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="rsvp-form">
+					<form action="" class="form">
+						<div class="row">
+							<div class="input-group w50">
+								<input type="text" class="input-control" placeholder="Name">
+							</div>
+							<div class="input-group w50">
+								<input type="text" class="input-control" placeholder="Email">
+							</div>
+						</div>
+						<div class="row">
+							<div class="input-group">
+								<select class="input-control">
+									<option value="">Number of Guests</option>
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+								</select>
+							</div>
+						</div>
+						<div class="row">
+							<div class="input-group">
+								<select class="input-control">
+									<option value="I am attending">I am attending</option>
+									<option value="I am not attending">I am not attending</option>
+								</select>
+							</div>
+						</div>
+						<div class="row">
+							<div class="input-group">
+								<textarea placeHolder="Message" class="input-control"></textarea>
+							</div>
+						</div>
+						<div class="row">
+							<div class="input-group">
+								<button type="submit" class="btn-1">Send</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- RSVP section end -->
+
+
+	<!-- footer start -->
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="footer-content">
+					<div class="couple-name">
+						<img src="img/footer/download.png" alt="Rose Flower">
+						<h2>Jorge
+							<span>&</span>
+							Victoria
+						</h2>
+					</div>
+					<p>Thank you</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- footer end -->
 
 	<!-- jquery -->
 	<script src="scripts/jquery.min.js"></script>
