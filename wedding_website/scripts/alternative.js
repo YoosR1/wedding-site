@@ -26,6 +26,17 @@ $(window).on("load",function() {
 })
 
 $(document).ready(function() {
+	// fixed header
+	$(window).scroll(function(){
+		if($(this).scrollTop() > 100) {
+			$(".header").addClass("fixed");
+		}
+		else {
+			$(".header").removeClass("fixed");
+		}
+	})
+
+
 	//people filter
 	function peopleFilter(target) {
 		$(".filter-btn").removeClass("active");
