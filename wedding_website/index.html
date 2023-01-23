@@ -11,6 +11,9 @@
 	<!-- Main css -->
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
 
+	<!-- Responsive css -->
+	<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+
 	<!-- Default skin -->
 	<link rel="stylesheet" type="text/css" href="styles/skins/red.css">
 </head>
@@ -27,12 +30,13 @@
 				</div>
 				<div class="nav">
 					<ul>
-						<li><a href="#" class="active">Home</a></li>
-						<li><a href="#">Couple</a></li>
-						<li><a href="#">Story</a></li>
-						<li><a href="#">Events</a></li>
-						<li><a href="#">Gallery</a></li>
-						<li><a href="#">RSVP</a></li>
+						<li><a data-scroll-nav="0" href="#" class="active">Home</a></li>
+						<li><a data-scroll-nav="1" href="#">Couple</a></li>
+						<li><a data-scroll-nav="2" href="#">Story</a></li>
+						<li><a data-scroll-nav="3" href="#">Events</a></li>
+						<li><a data-scroll-nav="4" href="#">People</a></li>
+						<li><a data-scroll-nav="5" href="#">Gallery</a></li>
+						<li><a data-scroll-nav="6" href="#">RSVP</a></li>
 						<!-- Add Gift registry link -->
 					</ul>
 				</div>
@@ -41,7 +45,7 @@
 	</header>
 
 	<!-- Home Section start -->
-	<section class="home-section">
+	<section class="home-section" data-scroll-index="0">
 		<!-- Slide start -->
 		<div class="slide active" id="slideshow" style="background-image: url('img/slides/slide_1.jpg');">
 			<div class="container">
@@ -59,7 +63,7 @@
 	<!-- Home Section end -->
 
 	<!-- Couple Section start -->
-	<section class="couple-section">
+	<section class="couple-section" data-scroll-index="1">
 		<div class="container">
 			<div class="row">
 				<div class="section-title">
@@ -81,12 +85,10 @@
 			</div>
 		</div>
 	</section>
-
-
 	<!-- Couple Section end -->
 
 	<!-- Story Section start -->
-	<section class="story-section">
+	<section class="story-section" data-scroll-index="2">
 		<div class="container">
 			<div class="row">
 				<div class="section-title">
@@ -169,7 +171,7 @@
 	<!-- Story Section end -->
 
 	<!-- Event Section start -->
-	<section class="event-section">
+	<section class="event-section" data-scroll-index="3">
 		<div class="container">
 			<div class="row">
 				<div class="section-title">
@@ -208,7 +210,7 @@
 	<!-- Event Section end -->
 
 	<!-- People Section start -->
-	<section class="people-section">
+	<section class="people-section" data-scroll-index="4">
 		<div class="container">
 			<div class="row">
 				<div class="section-title">
@@ -280,7 +282,7 @@
 
 
 	<!-- Gallery Section start -->
-	<section class="gallery-section">
+	<section class="gallery-section" data-scroll-index="5">
 		<div class="container">
 			<div class="row">
 				<div class="section-title">
@@ -355,7 +357,7 @@
 
 	<!-- RSVP section start -->
 	<!-- TODO: Add backend that has the number of seats allowed per invite and a unique password or key to identify each invite -->
-	<section class="rsvp-section">
+	<section class="rsvp-section" data-scroll-index="6">
 		<div class="container">
 			<div class="row">
 				<div class="section-title">
@@ -434,7 +436,10 @@
 	<!-- jquery -->
 	<script src="scripts/jquery.min.js"></script>
 
-	<!-- main -->
+	<!-- scrollIt -->
+	<script src="scripts/scrollIt.min.js"></script>
+
+	<!-- alternative -->
 	<script src="scripts/alternative.js"></script>
 </body>
 </html>

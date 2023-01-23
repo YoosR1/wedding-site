@@ -447,6 +447,10 @@ header, section, footer {
 	max-width: 50%;
 }
 
+.story-section .story-img img{
+	width: 100%;
+}
+
 .story-section .story-text {
 	align-self: center;
 }
@@ -490,7 +494,7 @@ header, section, footer {
 .event-section .event-item {
 	flex: 0 0 33.33%;
 	max-width: 33.33%;
-	padding: 0 15px;
+	padding: 15px;
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -772,6 +776,7 @@ header, section, footer {
 .rsvp-section .rsvp-form {
 	flex: 0 0 100%;
 	max-width: 100%;
+	padding: 0 15px;
 }
 
 .rsvp-section .form {
@@ -836,6 +841,7 @@ header, section, footer {
 	justify-content: center;
 	position: relative;
 	z-index: 1;
+	overflow: hidden;
 }
 
 .footer .footer-content .couple-name img {
