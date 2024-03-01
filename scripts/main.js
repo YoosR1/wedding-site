@@ -1,4 +1,3 @@
-
 $(window).on("load",function() {
 	// Home Section Slideshow
 	let slideIndex = $(".slide.active").index();
@@ -16,5 +15,27 @@ $(window).on("load",function() {
 	}
 	slideShow();
 })
+
+document.getElementById("RSVP-SEND").onclick = function() = {
+    console.log("Pressed");
+    return false;
+};
+
+function handleRSVP() {
+    console.log("Handle RSVP was called");
+/*
+    return gapi.client.sheets.spreadsheets.values.append({
+      "spreadsheetId": "1ZWbUMwH50Vq5tlycMTSiMPS9ILvuCjgbhCkQaQLy7tU",
+      "range": "A1:G1",
+      "includeValuesInResponse": true,
+      "insertDataOption": "INSERT_ROWS",
+      "valueInputOption": "USER_ENTERED",
+      "resource": {}
+    }).then(function(response) {
+                      // Handle the results here (response.result has the parsed body).
+                      console.log("Response", response);
+                    },
+                    function(err) { console.error("Execute error", err); });*/
+}
 
 // Abandoned at part 5

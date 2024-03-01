@@ -127,3 +127,25 @@ $(document).ready(function() {
 		}
 	})
 })
+
+document.getElementById("RSVP-SEND").onclick = function() {
+    return handleRSVP();
+};
+
+function handleRSVP() {
+    console.log("Handle RSVP was called");
+    return false; // Suppresses reloading the screen
+/*
+    return gapi.client.sheets.spreadsheets.values.append({
+      "spreadsheetId": "1ZWbUMwH50Vq5tlycMTSiMPS9ILvuCjgbhCkQaQLy7tU",
+      "range": "A1:G1",
+      "includeValuesInResponse": true,
+      "insertDataOption": "INSERT_ROWS",
+      "valueInputOption": "USER_ENTERED",
+      "resource": {}
+    }).then(function(response) {
+                      // Handle the results here (response.result has the parsed body).
+                      console.log("Response", response);
+                    },
+                    function(err) { console.error("Execute error", err); });*/
+}
