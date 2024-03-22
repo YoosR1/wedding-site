@@ -612,6 +612,8 @@ header, section, footer {
 	box-shadow: 0 0 10px #cccccc;
 	margin-top: -40px;
 	transition: all 0.5s ease;
+	height: 500px;
+	object-fit: cover;
 }
 
 .people-section .people-item-inner:hover img {
@@ -819,6 +821,73 @@ header, section, footer {
 	outline: none;
 }
 
+/* gift registry */
+.registry-section {
+	padding: 80px 0 80px;
+}
+
+.registry-section .section-title h2,
+.registry-section .section-title p,
+.registry-section .section-end p,
+.registry-section .section-end li {
+	color: #FFFFFF;
+}
+
+.registry-section .section-title p {
+	margin: 10px 0 0;
+	font-size: 16px;
+	line-height: 26px;
+}
+
+.registry-section .registry-item {
+	flex: 0 0 50%;
+	max-width: 50%;
+	padding: 15px;
+}
+
+.registry-section .registry-item-inner {
+	background-color: #ffffff;
+	padding: 15px;
+	text-align: center;
+	box-shadow: 0 0 10px #888888;
+}
+
+.registry-section .registry-item-inner img {
+	width: 100%;
+	transition: all 0.5s ease;
+	height: 50px;
+	object-fit: contain;
+}
+
+.registry-section .registry-item-inner:hover img {
+	transform: scale(0.95);
+}
+
+.registry-section .registry-item-inner h4 {
+    margin-top: 20px;
+	font-size: 16px;
+	color: #000000;
+	font-weight: 500;
+	margin: 20px 0 5px;
+	text-transform: capitalize;
+}
+
+.registry-section .registry-item-inner p {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+.registry-section .section-end {
+    margin-top: 60px;
+    text-align: center;
+	font-size: 16px;
+	line-height: 26px;
+}
+
+.registry-section .section-end ul {
+    margin-top: 10px;
+    list-style-type: none;
+}
 
 /* footer */
 .footer {
